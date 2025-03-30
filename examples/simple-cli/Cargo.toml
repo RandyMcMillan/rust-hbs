@@ -1,0 +1,11 @@
+[package]
+name = "generated_app"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+handlebars = "4.3"
+serde = { version = "1.0", features = ["derive"] }
+
+[dependencies]
+handlebars = "4.3"
